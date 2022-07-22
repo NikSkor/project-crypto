@@ -33,7 +33,7 @@
         transition: transform 0.36s ease-in-out;
     }
     .header__navigation_open {
-        transform: translateY(calc(100%-1px));
-        
+        /* top: -1px; */
+        transform: translateY(99%);  
     }
 }
